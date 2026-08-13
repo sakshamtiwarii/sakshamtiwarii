@@ -32,8 +32,6 @@
 Not resume-polished yet, but where the real depth is being built:
 
 - **Storage engine (Go)** — slotted pages, LRU buffer pool, B+ tree with full split/merge rebalancing, WAL with CRC32 crash recovery, benchmarked against BoltDB
-- **Jenny** — a local-first AI agent with multi-LLM routing, three-layer TTS, and a Neo4j + ChromaDB + SQLite memory architecture
-- **Ignix OS** — an Arch Linux-based desktop OS with a Hyprland/Sway compositor and Rust background services
 
 <img src="./assets/divider.svg" width="100%"/>
 
