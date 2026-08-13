@@ -50,6 +50,5 @@ Not resume-polished yet, but where the real depth is being built:
 
 **[Portfolio](https://www.sakshamtiwari.net/)** · **[LinkedIn](https://www.linkedin.com/in/sakshamtiwarii)** · **[Email](mailto:tsaksham22@gmail.com)**
 
-<sub>SYS.PROFILE // EOF</sub>
 
 </div>
