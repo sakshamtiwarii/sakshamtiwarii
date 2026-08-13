@@ -1,0 +1,13 @@
+<svg width="1200" height="34" viewBox="0 0 1200 34" xmlns="http://www.w3.org/2000/svg">
+  <line x1="0" y1="17" x2="1200" y2="17" stroke="#1A222B" stroke-width="1"/>
+  <g stroke="#2C3844" stroke-width="1">
+    <line x1="0" y1="10" x2="0" y2="24"/>
+    <line x1="200" y1="12" x2="200" y2="22"/>
+    <line x1="400" y1="12" x2="400" y2="22"/>
+    <line x1="600" y1="10" x2="600" y2="24"/>
+    <line x1="800" y1="12" x2="800" y2="22"/>
+    <line x1="1000" y1="12" x2="1000" y2="22"/>
+    <line x1="1200" y1="10" x2="1200" y2="24"/>
+  </g>
+  <rect x="596" y="13" width="8" height="8" fill="#F5A623" transform="rotate(45 600 17)"/>
+</svg>

@@ -1,0 +1,72 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#182028" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0B0E13" stop-opacity="1"/>
+      <stop offset="70%" stop-color="#0B0E13" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#0B0E13" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="320" fill="#0B0E13"/>
+  <rect width="1200" height="320" fill="url(#grid)"/>
+  <rect width="1200" height="320" fill="url(#fade)"/>
+
+  <!-- corner ticks -->
+  <g stroke="#F5A623" stroke-width="2" fill="none">
+    <path d="M20 20 L20 44 M20 20 L44 20"/>
+    <path d="M1180 20 L1180 44 M1180 20 L1156 20"/>
+    <path d="M20 300 L20 276 M20 300 L44 300"/>
+    <path d="M1180 300 L1180 276 M1180 300 L1156 300"/>
+  </g>
+
+  <!-- top meta label -->
+  <text x="20" y="60" font-family="'Courier New', monospace" font-size="11" fill="#5B6572" letter-spacing="2">SYS.PROFILE // REV.06 // BLR-IN</text>
+  <line x1="20" y1="70" x2="360" y2="70" stroke="#233040" stroke-width="1"/>
+
+  <!-- main title -->
+  <text x="20" y="140" font-family="'Courier New', monospace" font-weight="bold" font-size="46" fill="#E6EDF3" letter-spacing="1">SAKSHAM TIWARI</text>
+  <rect x="21" y="152" width="330" height="4" fill="#F5A623"/>
+
+  <!-- subtitle -->
+  <text x="20" y="185" font-family="'Courier New', monospace" font-size="16" fill="#F5A623" letter-spacing="3">BACKEND // GENAI ENGINEER</text>
+
+  <!-- terminal line -->
+  <text x="20" y="225" font-family="'Courier New', monospace" font-size="14" fill="#5B6572">$ status --current</text>
+  <text x="20" y="248" font-family="'Courier New', monospace" font-size="14" fill="#C9D1D9">&gt; building a storage engine from scratch (Go)</text>
+  <rect x="443" y="237" width="9" height="15" fill="#F5A623">
+    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.4;0.4;0.9;1" dur="1.4s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="20" y="280" font-family="'Courier New', monospace" font-size="12" fill="#3E4C5A">VTU, BENGALURU · CLASS OF 2027 · CGPA 8.3</text>
+
+  <!-- schematic diagram, right side -->
+  <g font-family="'Courier New', monospace" font-size="10" fill="#8B96A3">
+    <!-- nodes -->
+    <rect x="880" y="70" width="90" height="34" rx="3" fill="none" stroke="#3E4C5A" stroke-width="1.5"/>
+    <text x="925" y="91" text-anchor="middle" fill="#C9D1D9">CLIENT</text>
+
+    <rect x="880" y="150" width="90" height="34" rx="3" fill="none" stroke="#F5A623" stroke-width="1.5"/>
+    <text x="925" y="171" text-anchor="middle" fill="#F5A623">API</text>
+
+    <rect x="1030" y="110" width="90" height="34" rx="3" fill="none" stroke="#3E4C5A" stroke-width="1.5"/>
+    <text x="1075" y="131" text-anchor="middle" fill="#C9D1D9">LLM</text>
+
+    <rect x="1030" y="190" width="90" height="34" rx="3" fill="none" stroke="#3E4C5A" stroke-width="1.5"/>
+    <text x="1075" y="211" text-anchor="middle" fill="#C9D1D9">STORE</text>
+
+    <!-- connectors -->
+    <g stroke="#2C3844" stroke-width="1.5" fill="none">
+      <path d="M925 104 L925 150"/>
+      <path d="M970 160 L1030 127"/>
+      <path d="M970 175 L1030 207"/>
+    </g>
+    <circle cx="925" cy="127" r="2.5" fill="#F5A623"/>
+    <circle cx="1000" cy="143" r="2.5" fill="#3E4C5A"/>
+    <circle cx="1000" cy="191" r="2.5" fill="#3E4C5A"/>
+  </g>
+
+  <text x="880" y="260" font-family="'Courier New', monospace" font-size="10" fill="#3E4C5A" letter-spacing="1">FIG.01 — REQUEST PATH</text>
+</svg>

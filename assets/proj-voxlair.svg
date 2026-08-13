@@ -1,0 +1,32 @@
+<svg width="580" height="220" viewBox="0 0 580 220" xmlns="http://www.w3.org/2000/svg">
+  <rect width="580" height="220" fill="#0B0E13" stroke="#1A222B" stroke-width="1"/>
+  <g stroke="#F5A623" stroke-width="1.5" fill="none">
+    <path d="M12 12 L12 28 M12 12 L28 12"/>
+    <path d="M568 12 L568 28 M568 12 L552 12"/>
+  </g>
+  <text x="20" y="34" font-family="'Courier New', monospace" font-size="10" fill="#5B6572" letter-spacing="1">PROJECT.04 · SOLO-FOUNDED</text>
+  <text x="20" y="58" font-family="'Courier New', monospace" font-weight="bold" font-size="20" fill="#E6EDF3">Voxlair</text>
+  <text x="20" y="80" font-family="'Courier New', monospace" font-size="11" fill="#8B96A3">Anonymous discussion platform</text>
+
+  <g font-family="'Courier New', monospace" font-size="9" fill="#C9D1D9">
+    <rect x="20" y="100" width="80" height="28" rx="2" fill="none" stroke="#F5A623"/>
+    <text x="60" y="118" text-anchor="middle" fill="#F5A623">NEXT.JS SSR</text>
+
+    <rect x="140" y="100" width="90" height="28" rx="2" fill="none" stroke="#3E4C5A"/>
+    <text x="185" y="118" text-anchor="middle">EXPRESS API</text>
+
+    <rect x="270" y="100" width="90" height="28" rx="2" fill="none" stroke="#3E4C5A"/>
+    <text x="315" y="118" text-anchor="middle">POSTGRESQL</text>
+
+    <rect x="400" y="100" width="90" height="28" rx="2" fill="none" stroke="#3E4C5A"/>
+    <text x="445" y="118" text-anchor="middle">SEO CRAWL</text>
+
+    <path d="M100 114 L140 114" stroke="#2C3844"/>
+    <path d="M230 114 L270 114" stroke="#2C3844"/>
+    <path d="M60 100 L60 90 L445 90 L445 100" stroke="#2C3844" fill="none"/>
+  </g>
+
+  <line x1="20" y1="150" x2="560" y2="150" stroke="#1A222B"/>
+  <text x="20" y="170" font-family="'Courier New', monospace" font-size="10" fill="#5B6572">Next.js · Node.js · Express · PostgreSQL</text>
+  <text x="20" y="188" font-family="'Courier New', monospace" font-size="10" fill="#3E4C5A">Diagnosed CSR indexing failure, rebuilt SSR + SEO from scratch</text>
+</svg>
